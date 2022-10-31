@@ -1,5 +1,4 @@
 from aiogram.types import *
-from config import dp
 
 dessertMenu = InlineKeyboardMarkup(
     inline_keyboard=[

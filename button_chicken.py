@@ -1,5 +1,4 @@
 from aiogram.types import *
-from config import dp
 
 chickenMenu = InlineKeyboardMarkup(
     inline_keyboard=[
