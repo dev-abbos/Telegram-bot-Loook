@@ -48,36 +48,339 @@ drinksMenu = InlineKeyboardMarkup(
             InlineKeyboardButton(text='SOK 1L (APELSIN)', callback_data='sok_1_ap')
         ],
         [
-            InlineKeyboardButton(text='🛒 Buyurtmalar', callback_data='orders')
-        ],
-        [
-            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_to_menu')
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_to_menu')
         ]
     ]
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+mineralka_05bg_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_mineralka_05g_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+mineralka_05g_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_mineralka_1bg_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+mineralka_1bg_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_mineralka_1g_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+mineralka_1g_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_mineralka_15bg_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+mineralka_15bg_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_mineralka_15g_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+mineralka_15g_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_cola_400_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+cola_400_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_cola_05_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+cola_05_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_cola_1_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+cola_1_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_cola_15_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+cola_15_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_fanta_400_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+fanta_400_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_fanta_05_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+fanta_05_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_fanta_1_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+fanta_1_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_fanta_15_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+fanta_15_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sprite_400_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sprite_400_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sprite_05_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sprite_05_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sprite_1_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sprite_1_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sprite_15_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sprite_15_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_ice_tea_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+ice_tea_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sok_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sok_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sok_granat_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sok_granat_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_sok_apelsin_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+sok_apelsin_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_drinks')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
 
 
 

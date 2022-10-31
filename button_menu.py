@@ -11,6 +11,14 @@ contactButton = ReplyKeyboardMarkup(
     one_time_keyboard=True
 )
 
+infobtn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='Bizning sayt', url='https://www.loook.uz/')
+        ]
+    ]
+)
+
 orderMenu = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -42,7 +50,7 @@ chooseMenu = InlineKeyboardMarkup(
             InlineKeyboardButton(text='🍟🧃 COMBO', callback_data='combo')
         ],
         [
-            InlineKeyboardButton(text='🛒 Buyurtmalar', callback_data='orders')
+            InlineKeyboardButton(text='🛒 Buyurtmani tasdiqlash', callback_data='confirm_purchase')
         ],
         [
             InlineKeyboardButton(text='❌ Bekor qilmoq', callback_data='cancel')

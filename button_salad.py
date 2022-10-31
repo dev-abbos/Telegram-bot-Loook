@@ -12,11 +12,66 @@ saladMenu = InlineKeyboardMarkup(
             InlineKeyboardButton(text='BREAD PIKELET', callback_data='bread_pikelet')
         ],
         [
-            InlineKeyboardButton(text='🛒 Buyurtmalar', callback_data='orders')
-        ],
-        [
-        InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_to_menu')
+        InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_to_menu')
         ]
     ]
 )
-
+coleslaw_salad_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_salads'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_loook_salad_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+loook_salad_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_salads'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_veggie_fresh_salad_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+veggie_fresh_salad_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_salads'),
+            InlineKeyboardButton(text='Keyingi ⏩', callback_data='next_bread_pikelet_btn')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
+bread_pikelet_btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='➕', callback_data='add'),
+            InlineKeyboardButton(text='➖', callback_data='less')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Orqaga', callback_data='back_salads')
+        ],
+        [
+            InlineKeyboardButton(text='⏪ Asosiy menu', callback_data='back_menu')
+        ]
+    ]
+)
